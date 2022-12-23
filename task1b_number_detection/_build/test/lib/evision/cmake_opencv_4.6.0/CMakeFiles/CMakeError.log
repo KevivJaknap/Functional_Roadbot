@@ -1,0 +1,905 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8dd9a/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8dd9a.dir/build.make CMakeFiles/cmTC_8dd9a.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8dd9a.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_8dd9a.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_8dd9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dd9a.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_8dd9a.dir/src.c.o  -o cmTC_8dd9a 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0c08e/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0c08e.dir/build.make CMakeFiles/cmTC_0c08e.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c08e.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_0c08e.dir/src.cxx.o -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_0c08e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c08e.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_0c08e.dir/src.cxx.o  -o cmTC_0c08e 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9d19d/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9d19d.dir/build.make CMakeFiles/cmTC_9d19d.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9d19d.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_9d19d.dir/src.cxx.o -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_9d19d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d19d.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_9d19d.dir/src.cxx.o  -o cmTC_9d19d 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_64825/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_64825.dir/build.make CMakeFiles/cmTC_64825.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64825.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_64825.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_64825
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64825.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_64825.dir/src.c.o  -o cmTC_64825 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_12959/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_12959.dir/build.make CMakeFiles/cmTC_12959.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12959.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_12959.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_12959
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12959.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_12959.dir/src.c.o  -o cmTC_12959 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_33705/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_33705.dir/build.make CMakeFiles/cmTC_33705.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33705.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_33705.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_33705
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33705.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_33705.dir/src.c.o  -o cmTC_33705 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cbbb9/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cbbb9.dir/build.make CMakeFiles/cmTC_cbbb9.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cbbb9.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_cbbb9.dir/src.cxx.o -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_cbbb9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbbb9.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_cbbb9.dir/src.cxx.o  -o cmTC_cbbb9 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c56c/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8c56c.dir/build.make CMakeFiles/cmTC_8c56c.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c56c.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_8c56c.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_8c56c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c56c.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_8c56c.dir/src.c.o  -o cmTC_8c56c 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ca8b/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7ca8b.dir/build.make CMakeFiles/cmTC_7ca8b.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ca8b.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_7ca8b.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_7ca8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ca8b.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0  -O3 -DNDEBUG    CMakeFiles/cmTC_7ca8b.dir/src.c.o  -o cmTC_7ca8b 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c454b/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c454b.dir/build.make CMakeFiles/cmTC_c454b.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c454b.dir/OFF64_T.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c454b.dir/OFF64_T.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: error: ‘off64_t’ undeclared here (not in a function); did you mean ‘off_t’?
+   23 | #define SIZE (sizeof(off64_t))
+      |                      ^~~~~~~
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[2]: *** [CMakeFiles/cmTC_c454b.dir/build.make:66: CMakeFiles/cmTC_c454b.dir/OFF64_T.c.o] Error 1
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_c454b/fast] Error 2
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c0d4/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7c0d4.dir/build.make CMakeFiles/cmTC_7c0d4.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c0d4.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_7c0d4.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking C executable cmTC_7c0d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c0d4.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_7c0d4.dir/src.c.o  -o cmTC_7c0d4 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6771/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c6771.dir/build.make CMakeFiles/cmTC_c6771.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6771.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c6771.dir/CheckIncludeFile.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: io.h: No such file or directory
+    1 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_c6771.dir/build.make:66: CMakeFiles/cmTC_c6771.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_c6771/fast] Error 2
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_73b6f/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_73b6f.dir/build.make CMakeFiles/cmTC_73b6f.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73b6f.dir/int8.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_73b6f.dir/int8.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int8.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int8.c:23:22: error: ‘INT8’ undeclared here (not in a function); did you mean ‘INT8_C’?
+   23 | #define SIZE (sizeof(INT8))
+      |                      ^~~~
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int8.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[2]: *** [CMakeFiles/cmTC_73b6f.dir/build.make:66: CMakeFiles/cmTC_73b6f.dir/int8.c.o] Error 1
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_73b6f/fast] Error 2
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6cac9/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6cac9.dir/build.make CMakeFiles/cmTC_6cac9.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6cac9.dir/int16.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_6cac9.dir/int16.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int16.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int16.c:23:22: error: ‘INT16’ undeclared here (not in a function); did you mean ‘INT16_C’?
+   23 | #define SIZE (sizeof(INT16))
+      |                      ^~~~~
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int16.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[2]: *** [CMakeFiles/cmTC_6cac9.dir/build.make:66: CMakeFiles/cmTC_6cac9.dir/int16.c.o] Error 1
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_6cac9/fast] Error 2
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_94220/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_94220.dir/build.make CMakeFiles/cmTC_94220.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94220.dir/int32.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_94220.dir/int32.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int32.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int32.c:23:22: error: ‘INT32’ undeclared here (not in a function); did you mean ‘INT32_C’?
+   23 | #define SIZE (sizeof(INT32))
+      |                      ^~~~~
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int32.c:25:12: note: in expansion of macro ‘SIZE’
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+make[2]: *** [CMakeFiles/cmTC_94220.dir/build.make:66: CMakeFiles/cmTC_94220.dir/int32.c.o] Error 1
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_94220/fast] Error 2
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1edad/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1edad.dir/build.make CMakeFiles/cmTC_1edad.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1edad.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1edad.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1edad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1edad.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_1edad.dir/CheckFunctionExists.c.o  -o cmTC_1edad 
+/usr/bin/ld: CMakeFiles/cmTC_1edad.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `setmode'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_1edad.dir/build.make:87: cmTC_1edad] Error 1
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_1edad/fast] Error 2
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-array-parameter’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-array-parameter'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02118/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_02118.dir/build.make CMakeFiles/cmTC_02118.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02118.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-implicit-fallthrough -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-array-parameter -o CMakeFiles/cmTC_02118.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-array-parameter’
+Linking C executable cmTC_02118
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02118.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast -Wno-misleading-indentation -Wno-implicit-fallthrough -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_02118.dir/src.c.o  -o cmTC_02118 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2ec63/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2ec63.dir/build.make CMakeFiles/cmTC_2ec63.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2ec63.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_2ec63.dir/src.cxx.o -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_2ec63
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ec63.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_2ec63.dir/src.cxx.o  -o cmTC_2ec63 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62056/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62056.dir/build.make CMakeFiles/cmTC_62056.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62056.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_62056.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking C executable cmTC_62056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62056.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_62056.dir/src.c.o  -o cmTC_62056 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_001b6/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_001b6.dir/build.make CMakeFiles/cmTC_001b6.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_001b6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_001b6.dir/CheckSymbolExists.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+make[2]: *** [CMakeFiles/cmTC_001b6.dir/build.make:66: CMakeFiles/cmTC_001b6.dir/CheckSymbolExists.c.o] Error 1
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_001b6/fast] Error 2
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+File /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-null-pointer-subtraction’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-null-pointer-subtraction'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06b76/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_06b76.dir/build.make CMakeFiles/cmTC_06b76.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06b76.dir/src.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-null-pointer-subtraction -o CMakeFiles/cmTC_06b76.dir/src.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-null-pointer-subtraction’
+Linking C executable cmTC_06b76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06b76.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-undef -Wno-cast-align -Wno-implicit-fallthrough -Wno-unused-parameter -Wno-sign-compare -Wno-maybe-uninitialized  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_06b76.dir/src.c.o  -o cmTC_06b76 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79ffc/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_79ffc.dir/build.make CMakeFiles/cmTC_79ffc.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_79ffc.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_79ffc.dir/src.cxx.o -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_79ffc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79ffc.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_79ffc.dir/src.cxx.o  -o cmTC_79ffc 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_270a1/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_270a1.dir/build.make CMakeFiles/cmTC_270a1.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_270a1.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -std=c++11 -o CMakeFiles/cmTC_270a1.dir/src.cxx.o -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking CXX executable cmTC_270a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_270a1.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_270a1.dir/src.cxx.o  -o cmTC_270a1 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f8b35/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f8b35.dir/build.make CMakeFiles/cmTC_f8b35.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8b35.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f8b35.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8b35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8b35.dir/link.txt --verbose=1
+/usr/bin/cc -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_f8b35.dir/CheckFunctionExists.c.o  -o cmTC_f8b35 
+/usr/bin/ld: CMakeFiles/cmTC_f8b35.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cmTC_f8b35.dir/build.make:87: cmTC_f8b35] Error 1
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_f8b35/fast] Error 2
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7dbbd/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7dbbd.dir/build.make CMakeFiles/cmTC_7dbbd.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7dbbd.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_7dbbd.dir/src.cxx.o -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_7dbbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dbbd.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_7dbbd.dir/src.cxx.o  -o cmTC_7dbbd 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48f0a/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_48f0a.dir/build.make CMakeFiles/cmTC_48f0a.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48f0a.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_48f0a.dir/src.cxx.o -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_48f0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48f0a.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_48f0a.dir/src.cxx.o  -o cmTC_48f0a 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_94173/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_94173.dir/build.make CMakeFiles/cmTC_94173.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_94173.dir/src.cxx.o
+/usr/bin/c++    -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_94173.dir/src.cxx.o -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_94173
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94173.dir/link.txt --verbose=1
+/usr/bin/c++  -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_94173.dir/src.cxx.o  -o cmTC_94173 
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e02d/fast && make[1]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5e02d.dir/build.make CMakeFiles/cmTC_5e02d.dir/build
+make[2]: Entering directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e02d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -DPNG_ARM_NEON_OPT=0   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5e02d.dir/CheckIncludeFile.c.o   -c /home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[2]: *** [CMakeFiles/cmTC_5e02d.dir/build.make:66: CMakeFiles/cmTC_5e02d.dir/CheckIncludeFile.c.o] Error 1
+make[2]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+make[1]: *** [Makefile:121: cmTC_5e02d/fast] Error 2
+make[1]: Leaving directory '/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_opencv_4.6.0/CMakeFiles/CMakeTmp'
+
+
+
