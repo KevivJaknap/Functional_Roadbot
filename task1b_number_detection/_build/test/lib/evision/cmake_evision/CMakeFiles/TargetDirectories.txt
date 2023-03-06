@@ -1,3 +1,0 @@
-/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_evision/CMakeFiles/rebuild_cache.dir
-/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_evision/CMakeFiles/edit_cache.dir
-/home/vivek/Desktop/elixir/task1b_number_detection/_build/test/lib/evision/cmake_evision/CMakeFiles/evision.dir
